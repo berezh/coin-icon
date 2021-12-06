@@ -18,8 +18,8 @@ const plugins = [
     copy({
         targets: [
             {
-                src: 'src/svg',
-                dest: 'dist',
+                src: 'src/icon/svg',
+                dest: 'dist/svg',
             },
         ],
     }),
