@@ -2,7 +2,7 @@ import typescript from 'rollup-plugin-typescript2';
 import scss from 'rollup-plugin-scss';
 import { uglify } from 'rollup-plugin-uglify';
 import svg from 'rollup-plugin-svg-import';
-import copy from 'rollup-plugin-copy';
+// import copy from 'rollup-plugin-copy';
 
 import pkg from './package.json';
 
@@ -15,14 +15,14 @@ const plugins = [
         output: false,
     }),
     svg(),
-    copy({
-        targets: [
-            {
-                src: 'src/icon/svg',
-                dest: 'dist/svg',
-            },
-        ],
-    }),
+    // copy({
+    //     targets: [
+    //         {
+    //             src: 'src/icon/svg',
+    //             dest: 'dist/svg',
+    //         },
+    //     ],
+    // }),
 ];
 
 if (process.env.BUILD === 'production') {
