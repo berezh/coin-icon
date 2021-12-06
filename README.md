@@ -4,9 +4,9 @@
     <img src="https://nodei.co/npm/coin-icon.png?mini=true"/>
 </a>
 
-Multi theme support based on [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+Cryptocurrency icons set
 
-[DEMO](https://varp.com/coin-icon)
+[DEMO](https://varp.com/vector-icons)
 
 ---
 
