@@ -1,13 +1,13 @@
 import React, { SVGAttributes, useMemo } from 'react';
 
-import { CoinIconNameList } from '..';
-import { CoinIconName } from '../names';
+import { CoinIconNameList } from '.';
+import { CoinIconName } from './names';
 
 const icons: Record<string, React.FC> = {};
 
 for (const name of CoinIconNameList) {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const icon = require(`../svg/${name}.svg`);
+    const icon = require(`./svg/${name}.svg`);
     icons[name] = icon;
 }
 
