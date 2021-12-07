@@ -631,7 +631,7 @@ interface Props extends SVGAttributes<any> {
     name: CoinIconName;
 }
 
-export const AppIcon: React.FC<Props> = ({ name, style, ...props }) => {
+export const CoinIcon: React.FC<Props> = ({ name, style, ...props }) => {
     const svgAttrs: Partial<SVGAttributes<any>> = useMemo(() => {
         return {
             fill: 'currentColor',
