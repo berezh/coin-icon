@@ -6,7 +6,7 @@
 
 Cryptocurrency icons set
 
-[DEMO](https://varp.com/vector-icons)
+[DEMO](https://varp.com/coin-icons)
 
 ---
 
@@ -18,23 +18,68 @@ npm i coin-icon
 
 ## Glossary
 
-- [Usage](#Usage)
-- [CoinIcon](#CoinIcon) 
+-   [Usage](#Usage)
+-   [CoinIcon](#CoinIcon)
+-   [Add new icon](#Add_new_icon)
+
 ## Usage
 
 ```tsx
-
 import { CoinIcon } from 'coin-icon';
 
-<CoinIcon name="btc" />
-
+<CoinIcon name="btc" />;
 ```
 
 ## CoinIcon
 
-CoinIcon component
+CoinIcon component contains all properties declared in `SVGAttributes` interface from `@types/react` package and custom properties described below:
 
-| Property           | Description                                                                                                            |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `name`        | Icon name                                                                                                             |
 
+| Property | Description    | Description |
+| -------- | -------------- | ----------- |
+| `name`   | `CoinIconName` | Icon name   |
+
+
+## Add new icon
+
+1. Add new svg file into `src/icon/svg` folder
+
+```tsx
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <title>new-coin</title>
+    ...
+</svg>
+```
+
+Make sure that `width` and `height` property are removed.
+
+2. Add to `src/icon/names.ts` file:
+
+```tsx
+export const CoinIconNameList = [
+    ...
+    /* start */
+    'new-icon',
+    /* end */
+    ...
+];
+```
+
+3. Add to `src/icon/component/index.ts` file:
+
+```tsx
+
+/* start */
+import newIcon from './svg/new-icon.svg';
+/* end */
+
+const icons: Record<string, React.FC> = {
+    ...
+    /* start */
+    ['new-icon']: newIcon,
+    /* end */
+    ...
+};
+```
+
+4. Create Pull Request
