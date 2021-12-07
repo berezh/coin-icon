@@ -15,14 +15,14 @@ const plugins = [
         output: false,
     }),
     svgr(),
-    copy({
-        targets: [
-            {
-                src: 'src/icon/svg',
-                dest: ['dist', 'D:/berezh/varp/src/coin-icon'],
-            },
-        ],
-    }),
+    // copy({
+    //     targets: [
+    //         {
+    //             src: 'src/icon/svg',
+    //             dest: ['dist', 'D:/berezh/varp/src/coin-icon'],
+    //         },
+    //     ],
+    // }),
 ];
 
 if (process.env.BUILD === 'production') {

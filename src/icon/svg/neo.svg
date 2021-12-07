@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 384" version="1.1">
-  <g id="surface1">
-    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 350.65625 60.089844 L 223.566406 0 L 36.625 67.496094 L 163.710938 127.585938 Z M 220.289062 131.492188 L 220.289062 256 L 352.703125 318.558594 L 352.703125 83.6875 Z M 160.433594 151.300781 L 160.433594 384 L 31.296875 323.085938 L 31.296875 90.246094 "/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<title>neo</title>
+<path d="M29.221 5.008l-10.591-5.008-15.578 5.625 10.591 5.008zM18.357 10.958v10.376l11.034 5.213v-19.573zM13.37 12.608v19.392l-10.761-5.076v-19.403z"></path>
 </svg>

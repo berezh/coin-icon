@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 384" version="1.1">
-  <g id="surface1">
-    <path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 192 19.96875 L 354.816406 365.566406 L 29.183594 365.566406 Z M 192 114.433594 L 91.539062 326.398438 L 292.460938 326.398438 Z M 192 114.433594 "/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<title>salt</title>
+<path d="M16 0l15.076 32h-30.151zM16 8.747l-9.302 19.627h18.604z"></path>
 </svg>

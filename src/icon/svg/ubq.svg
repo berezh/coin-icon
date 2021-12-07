@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 384" version="1.1">
-  <g id="surface1">
-    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 203.410156 0 L 25.453125 100.347656 L 25.453125 254.644531 L 203.410156 151.78125 Z M 140.898438 324.632812 L 140.898438 206.574219 L 41.097656 264.480469 Z M 180.25 231.878906 L 180.25 383.660156 L 358.207031 283.3125 L 358.207031 129.015625 Z M 242.765625 59.03125 L 242.765625 177.085938 L 342.5625 119.179688 Z M 242.765625 59.03125 "/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<title>ubq</title>
+<path d="M16.966 0l-14.843 8.37v12.869l14.843-8.58zM11.752 27.077v-9.847l-8.324 4.83zM15.034 19.34v12.66l14.843-8.37v-12.869zM20.248 4.924v9.847l8.324-4.83z"></path>
 </svg>

@@ -32,115 +32,115 @@ import iatom from '../svg/atom.svg';
 import iaur from '../svg/aur.svg';
 import iawc from '../svg/awc.svg';
 import iaya from '../svg/aya.svg';
-// import i from '../svg/banx.svg';
-// import i from '../svg/bat.svg';
-// import i from '../svg/bay.svg';
-// import i from '../svg/bc.svg';
-// import i from '../svg/bch.svg';
-// import i from '../svg/bchsv.svg';
-// import i from '../svg/bcn.svg';
-// import i from '../svg/bft.svg';
-// import i from '../svg/bnb.svg';
-// import i from '../svg/bnt.svg';
-// import i from '../svg/brd.svg';
-// import i from '../svg/brk.svg';
-// import i from '../svg/brx.svg';
-// import i from '../svg/bsd.svg';
-// import i from '../svg/bsv.svg';
-// import i from '../svg/bta.svg';
-// import i from '../svg/btc.svg';
-// import i from '../svg/btcd.svg';
-// import i from '../svg/btcp.svg';
-// import i from '../svg/btg.svg';
-// import i from '../svg/bth.svg';
-// import i from '../svg/btm.svg';
-// import i from '../svg/bts.svg';
-// import i from '../svg/btu.svg';
-// import i from '../svg/busd.svg';
-// import i from '../svg/byts.svg';
-// import i from '../svg/cfi.svg';
-// import i from '../svg/chz.svg';
-// import i from '../svg/clam.svg';
-// import i from '../svg/clo.svg';
-// import i from '../svg/cloak.svg';
-// import i from '../svg/cnd.svg';
-// import i from '../svg/crm.svg';
-// import i from '../svg/crpt.svg';
-// import i from '../svg/cvc.svg';
-// import i from '../svg/dai.svg';
-// import i from '../svg/dao.svg';
-// import i from '../svg/dash.svg';
-// import i from '../svg/dcn.svg';
-// import i from '../svg/dcr.svg';
-// import i from '../svg/dct.svg';
-// import i from '../svg/dent.svg';
-// import i from '../svg/dgb.svg';
-// import i from '../svg/dgd.svg';
-// import i from '../svg/dgx.svg';
-// import i from '../svg/dkk.svg';
-// import i from '../svg/dmd.svg';
-// import i from '../svg/dnt.svg';
-// import i from '../svg/doge.svg';
-// import i from '../svg/dsh.svg';
-// import i from '../svg/ebst.svg';
-// import i from '../svg/edg.svg';
-// import i from '../svg/ela.svg';
-// import i from '../svg/elf.svg';
-// import i from '../svg/ely.svg';
-// import i from '../svg/emc.svg';
-// import i from '../svg/eng.svg';
-// import i from '../svg/enj.svg';
-// import i from '../svg/eos.svg';
-// import i from '../svg/eosdt.svg';
-// import i from '../svg/erc.svg';
-// import i from '../svg/erd.svg';
-// import i from '../svg/etc.svg';
-// import i from '../svg/eth.svg';
-// import i from '../svg/ethplo.svg';
-// import i from '../svg/eur.svg';
-// import i from '../svg/eurs.svg';
-// import i from '../svg/exp.svg';
-// import i from '../svg/fc2.svg';
-// import i from '../svg/fcn.svg';
-// import i from '../svg/fct.svg';
-// import i from '../svg/fio.svg';
-// import i from '../svg/flo.svg';
-// import i from '../svg/frk.svg';
-// import i from '../svg/fsbt.svg';
-// import i from '../svg/ftc.svg';
-// import i from '../svg/ftm.svg';
-// import i from '../svg/fun.svg';
-// import i from '../svg/game.svg';
-// import i from '../svg/gbg.svg';
-// import i from '../svg/gbp.svg';
-// import i from '../svg/gbyte.svg';
-// import i from '../svg/gdc.svg';
-// import i from '../svg/gemz.svg';
-// import i from '../svg/gld.svg';
-// import i from '../svg/gno.svg';
-// import i from '../svg/gnt.svg';
-// import i from '../svg/golos.svg';
-// import i from '../svg/grc.svg';
-// import i from '../svg/grs.svg';
-// import i from '../svg/gup.svg';
-// import i from '../svg/gusd.svg';
-// import i from '../svg/heat.svg';
-// import i from '../svg/hex.svg';
-// import i from '../svg/hmq.svg';
-// import i from '../svg/hot.svg';
-// import i from '../svg/hsr.svg';
-// import i from '../svg/icn.svg';
-// import i from '../svg/icx.svg';
-// import i from '../svg/ifc.svg';
-// import i from '../svg/incnt.svg';
-// import i from '../svg/ioc.svg';
-// import i from '../svg/iost.svg';
-// import i from '../svg/iotx.svg';
-// import i from '../svg/iq.svg';
-// import i from '../svg/ixt.svg';
-// import i from '../svg/jbs.svg';
-// import i from '../svg/job.svg';
-// import i from '../svg/joys.svg';
+import ibanx from '../svg/banx.svg';
+import ibat from '../svg/bat.svg';
+import ibay from '../svg/bay.svg';
+import ibc from '../svg/bc.svg';
+import ibch from '../svg/bch.svg';
+import ibchsv from '../svg/bchsv.svg';
+import ibcn from '../svg/bcn.svg';
+import ibft from '../svg/bft.svg';
+import ibnb from '../svg/bnb.svg';
+import ibnt from '../svg/bnt.svg';
+import ibrd from '../svg/brd.svg';
+import ibrk from '../svg/brk.svg';
+import ibrx from '../svg/brx.svg';
+import ibsd from '../svg/bsd.svg';
+import ibsv from '../svg/bsv.svg';
+import ibta from '../svg/bta.svg';
+import ibtc from '../svg/btc.svg';
+import ibtcd from '../svg/btcd.svg';
+import ibtcp from '../svg/btcp.svg';
+import ibtg from '../svg/btg.svg';
+import ibth from '../svg/bth.svg';
+import ibtm from '../svg/btm.svg';
+import ibts from '../svg/bts.svg';
+import ibtu from '../svg/btu.svg';
+import ibusd from '../svg/busd.svg';
+import ibyts from '../svg/byts.svg';
+import icfi from '../svg/cfi.svg';
+import ichz from '../svg/chz.svg';
+import iclam from '../svg/clam.svg';
+import iclo from '../svg/clo.svg';
+import icloak from '../svg/cloak.svg';
+import icnd from '../svg/cnd.svg';
+import icrm from '../svg/crm.svg';
+import icrpt from '../svg/crpt.svg';
+import icvc from '../svg/cvc.svg';
+import idai from '../svg/dai.svg';
+import idao from '../svg/dao.svg';
+import idash from '../svg/dash.svg';
+import idcn from '../svg/dcn.svg';
+import idcr from '../svg/dcr.svg';
+import idct from '../svg/dct.svg';
+import ident from '../svg/dent.svg';
+import idgb from '../svg/dgb.svg';
+import idgd from '../svg/dgd.svg';
+import idgx from '../svg/dgx.svg';
+import idkk from '../svg/dkk.svg';
+import idmd from '../svg/dmd.svg';
+import idnt from '../svg/dnt.svg';
+import idoge from '../svg/doge.svg';
+import idsh from '../svg/dsh.svg';
+import iebst from '../svg/ebst.svg';
+import iedg from '../svg/edg.svg';
+import iela from '../svg/ela.svg';
+import ielf from '../svg/elf.svg';
+import iely from '../svg/ely.svg';
+import iemc from '../svg/emc.svg';
+import ieng from '../svg/eng.svg';
+import ienj from '../svg/enj.svg';
+import ieos from '../svg/eos.svg';
+import ieosdt from '../svg/eosdt.svg';
+import ierc from '../svg/erc.svg';
+import ierd from '../svg/erd.svg';
+import ietc from '../svg/etc.svg';
+import ieth from '../svg/eth.svg';
+import iethplo from '../svg/ethplo.svg';
+import ieur from '../svg/eur.svg';
+import ieurs from '../svg/eurs.svg';
+import iexp from '../svg/exp.svg';
+import ifc2 from '../svg/fc2.svg';
+import ifcn from '../svg/fcn.svg';
+import ifct from '../svg/fct.svg';
+import ifio from '../svg/fio.svg';
+import iflo from '../svg/flo.svg';
+import ifrk from '../svg/frk.svg';
+import ifsbt from '../svg/fsbt.svg';
+import iftc from '../svg/ftc.svg';
+import iftm from '../svg/ftm.svg';
+import ifun from '../svg/fun.svg';
+import igame from '../svg/game.svg';
+import igbg from '../svg/gbg.svg';
+import igbp from '../svg/gbp.svg';
+import igbyte from '../svg/gbyte.svg';
+import igdc from '../svg/gdc.svg';
+import igemz from '../svg/gemz.svg';
+import igld from '../svg/gld.svg';
+import igno from '../svg/gno.svg';
+import ignt from '../svg/gnt.svg';
+import igolos from '../svg/golos.svg';
+import igrc from '../svg/grc.svg';
+import igrs from '../svg/grs.svg';
+import igup from '../svg/gup.svg';
+import igusd from '../svg/gusd.svg';
+import iheat from '../svg/heat.svg';
+import ihex from '../svg/hex.svg';
+import ihmq from '../svg/hmq.svg';
+import ihot from '../svg/hot.svg';
+import ihsr from '../svg/hsr.svg';
+import iicn from '../svg/icn.svg';
+import iicx from '../svg/icx.svg';
+import iifc from '../svg/ifc.svg';
+import iincnt from '../svg/incnt.svg';
+import iioc from '../svg/ioc.svg';
+import iiost from '../svg/iost.svg';
+import iiotx from '../svg/iotx.svg';
+import iiq from '../svg/iq.svg';
+import iixt from '../svg/ixt.svg';
+import ijbs from '../svg/jbs.svg';
+import ijob from '../svg/job.svg';
+import ijoys from '../svg/joys.svg';
 // import i from '../svg/kcs.svg';
 // import i from '../svg/kin.svg';
 // import i from '../svg/kmd.svg';
@@ -344,287 +344,287 @@ const icons: Record<string, React.FC> = {
     ['aur']: iaur,
     ['awc']: iawc,
     ['aya']: iaya,
-    // ['banx']: Icon,
-    // ['bat']: Icon,
-    // ['bay']: Icon,
-    // ['bc']: Icon,
-    // ['bch']: Icon,
-    // ['bchsv']: Icon,
-    // ['bcn']: Icon,
-    // ['bft']: Icon,
-    // ['bnb']: Icon,
-    // ['bnt']: Icon,
-    // ['brd']: Icon,
-    // ['brk']: Icon,
-    // ['brx']: Icon,
-    // ['bsd']: Icon,
-    // ['bsv']: Icon,
-    // ['bta']: Icon,
-    // ['btc']: Icon,
-    // ['btcd']: Icon,
-    // ['btcp']: Icon,
-    // ['btg']: Icon,
-    // ['bth']: Icon,
-    // ['btm']: Icon,
-    // ['bts']: Icon,
-    // ['btu']: Icon,
-    // ['busd']: Icon,
-    // ['byts']: Icon,
-    // ['cfi']: Icon,
-    // ['chz']: Icon,
-    // ['clam']: Icon,
-    // ['clo']: Icon,
-    // ['cloak']: Icon,
-    // ['cnd']: Icon,
-    // ['crm']: Icon,
-    // ['crpt']: Icon,
-    // ['cvc']: Icon,
-    // ['dai']: Icon,
-    // ['dao']: Icon,
-    // ['dash']: Icon,
-    // ['dcn']: Icon,
-    // ['dcr']: Icon,
-    // ['dct']: Icon,
-    // ['dent']: Icon,
-    // ['dgb']: Icon,
-    // ['dgd']: Icon,
-    // ['dgx']: Icon,
-    // ['dkk']: Icon,
-    // ['dmd']: Icon,
-    // ['dnt']: Icon,
-    // ['doge']: Icon,
-    // ['dsh']: Icon,
-    // ['ebst']: Icon,
-    // ['edg']: Icon,
-    // ['ela']: Icon,
-    // ['elf']: Icon,
-    // ['ely']: Icon,
-    // ['emc']: Icon,
-    // ['eng']: Icon,
-    // ['enj']: Icon,
-    // ['eos']: Icon,
-    // ['eosdt']: Icon,
-    // ['erc']: Icon,
-    // ['erd']: Icon,
-    // ['etc']: Icon,
-    // ['eth']: Icon,
-    // ['ethplo']: Icon,
-    // ['eur']: Icon,
-    // ['eurs']: Icon,
-    // ['exp']: Icon,
-    // ['fc2']: Icon,
-    // ['fcn']: Icon,
-    // ['fct']: Icon,
-    // ['fio']: Icon,
-    // ['flo']: Icon,
-    // ['frk']: Icon,
-    // ['fsbt']: Icon,
-    // ['ftc']: Icon,
-    // ['ftm']: Icon,
-    // ['fun']: Icon,
-    // ['game']: Icon,
-    // ['gbg']: Icon,
-    // ['gbp']: Icon,
-    // ['gbyte']: Icon,
-    // ['gdc']: Icon,
-    // ['gemz']: Icon,
-    // ['gld']: Icon,
-    // ['gno']: Icon,
-    // ['gnt']: Icon,
-    // ['golos']: Icon,
-    // ['grc']: Icon,
-    // ['grs']: Icon,
-    // ['gup']: Icon,
-    // ['gusd']: Icon,
-    // ['heat']: Icon,
-    // ['hex']: Icon,
-    // ['hmq']: Icon,
-    // ['hot']: Icon,
-    // ['hsr']: Icon,
-    // ['icn']: Icon,
-    // ['icx']: Icon,
-    // ['ifc']: Icon,
-    // ['incnt']: Icon,
-    // ['ioc']: Icon,
-    // ['iost']: Icon,
-    // ['iotx']: Icon,
-    // ['iq']: Icon,
-    // ['ixt']: Icon,
-    // ['jbs']: Icon,
-    // ['job']: Icon,
-    // ['joys']: Icon,
-    // ['kcs']: Icon,
-    // ['kin']: Icon,
-    // ['kmd']: Icon,
-    // ['knc']: Icon,
-    // ['kore']: Icon,
-    // ['lbc']: Icon,
-    // ['ldoge']: Icon,
-    // ['ledger']: Icon,
-    // ['link']: Icon,
-    // ['loki']: Icon,
-    // ['loom']: Icon,
-    // ['lrc']: Icon,
-    // ['lsk']: Icon,
-    // ['lst']: Icon,
-    // ['ltc']: Icon,
-    // ['lto']: Icon,
-    // ['lun']: Icon,
-    // ['maid']: Icon,
-    // ['mana']: Icon,
-    // ['mco']: Icon,
-    // ['mer']: Icon,
-    // ['mint']: Icon,
-    // ['miota']: Icon,
-    // ['mkr']: Icon,
-    // ['mln']: Icon,
-    // ['mona']: Icon,
-    // ['mrc']: Icon,
-    // ['msc']: Icon,
-    // ['msp']: Icon,
-    // ['mtl']: Icon,
-    // ['mtr']: Icon,
-    // ['mue']: Icon,
-    // ['myst']: Icon,
-    // ['nano']: Icon,
-    // ['nas']: Icon,
-    // ['nav']: Icon,
-    // ['nbt']: Icon,
-    // ['ncash']: Icon,
-    // ['neo']: Icon,
-    // ['neos']: Icon,
-    // ['neu']: Icon,
-    // ['ngc']: Icon,
-    // ['nlg']: Icon,
-    // ['nmc']: Icon,
-    // ['nmr']: Icon,
-    // ['note']: Icon,
-    // ['now']: Icon,
-    // ['npxs']: Icon,
-    // ['nut']: Icon,
-    // ['nvc']: Icon,
-    // ['nxt']: Icon,
-    // ['oax']: Icon,
-    // ['ok']: Icon,
-    // ['omg']: Icon,
-    // ['omni']: Icon,
-    // ['ong']: Icon,
-    // ['ont']: Icon,
-    // ['opal']: Icon,
-    // ['part']: Icon,
-    // ['pax']: Icon,
-    // ['pay']: Icon,
-    // ['piggy']: Icon,
-    // ['pink']: Icon,
-    // ['pivx']: Icon,
-    // ['plbt']: Icon,
-    // ['plr']: Icon,
-    // ['plu']: Icon,
-    // ['pot']: Icon,
-    // ['powr']: Icon,
-    // ['ppc']: Icon,
-    // ['ptoy']: Icon,
-    // ['pyn']: Icon,
-    // ['qcn']: Icon,
-    // ['qrk']: Icon,
-    // ['qtum']: Icon,
-    // ['r']: Icon,
-    // ['rads']: Icon,
-    // ['rbies']: Icon,
-    // ['rbt']: Icon,
-    // ['rby']: Icon,
-    // ['rcn']: Icon,
-    // ['rdd']: Icon,
-    // ['rep']: Icon,
-    // ['rhoc']: Icon,
-    // ['rise']: Icon,
-    // ['rlc']: Icon,
-    // ['rvn']: Icon,
-    // ['salt']: Icon,
-    // ['sar']: Icon,
-    // ['sbtc']: Icon,
-    // ['sc']: Icon,
-    // ['scot']: Icon,
-    // ['sdc']: Icon,
-    // ['sia']: Icon,
-    // ['sjcx']: Icon,
-    // ['slg']: Icon,
-    // ['sls']: Icon,
-    // ['smart']: Icon,
-    // ['sngls']: Icon,
-    // ['snm']: Icon,
-    // ['snrg']: Icon,
-    // ['snt']: Icon,
-    // ['srn']: Icon,
-    // ['start']: Icon,
-    // ['stash']: Icon,
-    // ['steem']: Icon,
-    // ['storj']: Icon,
-    // ['str']: Icon,
-    // ['strat']: Icon,
-    // ['stx']: Icon,
-    // ['swift']: Icon,
-    // ['swt']: Icon,
-    // ['sync']: Icon,
-    // ['synx']: Icon,
-    // ['sys']: Icon,
-    // ['time']: Icon,
-    // ['tip']: Icon,
-    // ['tix']: Icon,
-    // ['tkn']: Icon,
-    // ['trezor']: Icon,
-    // ['trig']: Icon,
-    // ['trst']: Icon,
-    // ['trx']: Icon,
-    // ['tusd']: Icon,
-    // ['tx']: Icon,
-    // ['ubq']: Icon,
-    // ['ukg']: Icon,
-    // ['und']: Icon,
-    // ['unity']: Icon,
-    // ['usd']: Icon,
-    // ['usdc']: Icon,
-    // ['usdt']: Icon,
-    // ['ven']: Icon,
-    // ['vera']: Icon,
-    // ['veri']: Icon,
-    // ['vet']: Icon,
-    // ['via']: Icon,
-    // ['vib']: Icon,
-    // ['vior']: Icon,
-    // ['viu']: Icon,
-    // ['vnl']: Icon,
-    // ['vpn']: Icon,
-    // ['vrc']: Icon,
-    // ['vtc']: Icon,
-    // ['vtho']: Icon,
-    // ['wan']: Icon,
-    // ['waves']: Icon,
-    // ['wax']: Icon,
-    // ['wings']: Icon,
-    // ['xai']: Icon,
-    // ['xaur']: Icon,
-    // ['xbs']: Icon,
-    // ['xcp']: Icon,
-    // ['xdn']: Icon,
-    // ['xel']: Icon,
-    // ['xem']: Icon,
-    // ['xlm']: Icon,
-    // ['xmr']: Icon,
-    // ['xnn']: Icon,
-    // ['xns']: Icon,
-    // ['xpm']: Icon,
-    // ['xrp']: Icon,
-    // ['xtz']: Icon,
-    // ['xvg']: Icon,
-    // ['xzc']: Icon,
-    // ['ybc']: Icon,
-    // ['yec']: Icon,
-    // ['zec']: Icon,
-    // ['zeit']: Icon,
-    // ['zen']: Icon,
-    // ['zil']: Icon,
-    // ['zrx']: Icon,
+    ['banx']: ibanx,
+    ['bat']: ibat,
+    ['bay']: ibay,
+    ['bc']: ibc,
+    ['bch']: ibch,
+    ['bchsv']: ibchsv,
+    ['bcn']: ibcn,
+    ['bft']: ibft,
+    ['bnb']: ibnb,
+    ['bnt']: ibnt,
+    ['brd']: ibrd,
+    ['brk']: ibrk,
+    ['brx']: ibrx,
+    ['bsd']: ibsd,
+    ['bsv']: ibsv,
+    ['bta']: ibta,
+    ['btc']: ibtc,
+    ['btcd']: ibtcd,
+    ['btcp']: ibtcp,
+    ['btg']: ibtg,
+    ['bth']: ibth,
+    ['btm']: ibtm,
+    ['bts']: ibts,
+    ['btu']: ibtu,
+    ['busd']: ibusd,
+    ['byts']: ibyts,
+    ['cfi']: icfi,
+    ['chz']: ichz,
+    ['clam']: iclam,
+    ['clo']: iclo,
+    ['cloak']: icloak,
+    ['cnd']: icnd,
+    ['crm']: icrm,
+    ['crpt']: icrpt,
+    ['cvc']: icvc,
+    ['dai']: idai,
+    ['dao']: idao,
+    ['dash']: idash,
+    ['dcn']: idcn,
+    ['dcr']: idcr,
+    ['dct']: idct,
+    ['dent']: ident,
+    ['dgb']: idgb,
+    ['dgd']: idgd,
+    ['dgx']: idgx,
+    ['dkk']: idkk,
+    ['dmd']: idmd,
+    ['dnt']: idnt,
+    ['doge']: idoge,
+    ['dsh']: idsh,
+    ['ebst']: iebst,
+    ['edg']: iedg,
+    ['ela']: iela,
+    ['elf']: ielf,
+    ['ely']: iely,
+    ['emc']: iemc,
+    ['eng']: ieng,
+    ['enj']: ienj,
+    ['eos']: ieos,
+    ['eosdt']: ieosdt,
+    ['erc']: ierc,
+    ['erd']: ierd,
+    ['etc']: ietc,
+    ['eth']: ieth,
+    ['ethplo']: iethplo,
+    ['eur']: ieur,
+    ['eurs']: ieurs,
+    ['exp']: iexp,
+    ['fc2']: ifc2,
+    ['fcn']: ifcn,
+    ['fct']: ifct,
+    ['fio']: ifio,
+    ['flo']: iflo,
+    ['frk']: ifrk,
+    ['fsbt']: ifsbt,
+    ['ftc']: iftc,
+    ['ftm']: iftm,
+    ['fun']: ifun,
+    ['game']: igame,
+    ['gbg']: igbg,
+    ['gbp']: igbp,
+    ['gbyte']: igbyte,
+    ['gdc']: igdc,
+    ['gemz']: igemz,
+    ['gld']: igld,
+    ['gno']: igno,
+    ['gnt']: ignt,
+    ['golos']: igolos,
+    ['grc']: igrc,
+    ['grs']: igrs,
+    ['gup']: igup,
+    ['gusd']: igusd,
+    ['heat']: iheat,
+    ['hex']: ihex,
+    ['hmq']: ihmq,
+    ['hot']: ihot,
+    ['hsr']: ihsr,
+    ['icn']: iicn,
+    ['icx']: iicx,
+    ['ifc']: iifc,
+    ['incnt']: iincnt,
+    ['ioc']: iioc,
+    ['iost']: iiost,
+    ['iotx']: iiotx,
+    ['iq']: iiq,
+    ['ixt']: iixt,
+    ['jbs']: ijbs,
+    ['job']: ijob,
+    ['joys']: ijoys,
+    // ['kcs']: i  ,
+    // ['kin']: i  ,
+    // ['kmd']: i  ,
+    // ['knc']: i  ,
+    // ['kore']: i  ,
+    // ['lbc']: i  ,
+    // ['ldoge']: i  ,
+    // ['ledger']: i  ,
+    // ['link']: i  ,
+    // ['loki']: i  ,
+    // ['loom']: i  ,
+    // ['lrc']: i  ,
+    // ['lsk']: i  ,
+    // ['lst']: i  ,
+    // ['ltc']: i  ,
+    // ['lto']: i  ,
+    // ['lun']: i  ,
+    // ['maid']: i  ,
+    // ['mana']: i  ,
+    // ['mco']: i  ,
+    // ['mer']: i  ,
+    // ['mint']: i  ,
+    // ['miota']: i  ,
+    // ['mkr']: i  ,
+    // ['mln']: i  ,
+    // ['mona']: i  ,
+    // ['mrc']: i  ,
+    // ['msc']: i  ,
+    // ['msp']: i  ,
+    // ['mtl']: i  ,
+    // ['mtr']: i  ,
+    // ['mue']: i  ,
+    // ['myst']: i  ,
+    // ['nano']: i  ,
+    // ['nas']: i  ,
+    // ['nav']: i  ,
+    // ['nbt']: i  ,
+    // ['ncash']: i  ,
+    // ['neo']: i  ,
+    // ['neos']: i  ,
+    // ['neu']: i  ,
+    // ['ngc']: i  ,
+    // ['nlg']: i  ,
+    // ['nmc']: i  ,
+    // ['nmr']: i  ,
+    // ['note']: i  ,
+    // ['now']: i  ,
+    // ['npxs']: i  ,
+    // ['nut']: i  ,
+    // ['nvc']: i  ,
+    // ['nxt']: i  ,
+    // ['oax']: i  ,
+    // ['ok']: i  ,
+    // ['omg']: i  ,
+    // ['omni']: i  ,
+    // ['ong']: i  ,
+    // ['ont']: i  ,
+    // ['opal']: i  ,
+    // ['part']: i  ,
+    // ['pax']: i  ,
+    // ['pay']: i  ,
+    // ['piggy']: i  ,
+    // ['pink']: i  ,
+    // ['pivx']: i  ,
+    // ['plbt']: i  ,
+    // ['plr']: i  ,
+    // ['plu']: i  ,
+    // ['pot']: i  ,
+    // ['powr']: i  ,
+    // ['ppc']: i  ,
+    // ['ptoy']: i  ,
+    // ['pyn']: i  ,
+    // ['qcn']: i  ,
+    // ['qrk']: i  ,
+    // ['qtum']: i  ,
+    // ['r']: i  ,
+    // ['rads']: i  ,
+    // ['rbies']: i  ,
+    // ['rbt']: i  ,
+    // ['rby']: i  ,
+    // ['rcn']: i  ,
+    // ['rdd']: i  ,
+    // ['rep']: i  ,
+    // ['rhoc']: i  ,
+    // ['rise']: i  ,
+    // ['rlc']: i  ,
+    // ['rvn']: i  ,
+    // ['salt']: i  ,
+    // ['sar']: i  ,
+    // ['sbtc']: i  ,
+    // ['sc']: i  ,
+    // ['scot']: i  ,
+    // ['sdc']: i  ,
+    // ['sia']: i  ,
+    // ['sjcx']: i  ,
+    // ['slg']: i  ,
+    // ['sls']: i  ,
+    // ['smart']: i  ,
+    // ['sngls']: i  ,
+    // ['snm']: i  ,
+    // ['snrg']: i  ,
+    // ['snt']: i  ,
+    // ['srn']: i  ,
+    // ['start']: i  ,
+    // ['stash']: i  ,
+    // ['steem']: i  ,
+    // ['storj']: i  ,
+    // ['str']: i  ,
+    // ['strat']: i  ,
+    // ['stx']: i  ,
+    // ['swift']: i  ,
+    // ['swt']: i  ,
+    // ['sync']: i  ,
+    // ['synx']: i  ,
+    // ['sys']: i  ,
+    // ['time']: i  ,
+    // ['tip']: i  ,
+    // ['tix']: i  ,
+    // ['tkn']: i  ,
+    // ['trezor']: i  ,
+    // ['trig']: i  ,
+    // ['trst']: i  ,
+    // ['trx']: i  ,
+    // ['tusd']: i  ,
+    // ['tx']: i  ,
+    // ['ubq']: i  ,
+    // ['ukg']: i  ,
+    // ['und']: i  ,
+    // ['unity']: i  ,
+    // ['usd']: i  ,
+    // ['usdc']: i  ,
+    // ['usdt']: i  ,
+    // ['ven']: i  ,
+    // ['vera']: i  ,
+    // ['veri']: i  ,
+    // ['vet']: i  ,
+    // ['via']: i  ,
+    // ['vib']: i  ,
+    // ['vior']: i  ,
+    // ['viu']: i  ,
+    // ['vnl']: i  ,
+    // ['vpn']: i  ,
+    // ['vrc']: i  ,
+    // ['vtc']: i  ,
+    // ['vtho']: i  ,
+    // ['wan']: i  ,
+    // ['waves']: i  ,
+    // ['wax']: i  ,
+    // ['wings']: i  ,
+    // ['xai']: i  ,
+    // ['xaur']: i  ,
+    // ['xbs']: i  ,
+    // ['xcp']: i  ,
+    // ['xdn']: i  ,
+    // ['xel']: i  ,
+    // ['xem']: i  ,
+    // ['xlm']: i  ,
+    // ['xmr']: i  ,
+    // ['xnn']: i  ,
+    // ['xns']: i  ,
+    // ['xpm']: i  ,
+    // ['xrp']: i  ,
+    // ['xtz']: i  ,
+    // ['xvg']: i  ,
+    // ['xzc']: i  ,
+    // ['ybc']: i  ,
+    // ['yec']: i  ,
+    // ['zec']: i  ,
+    // ['zeit']: i  ,
+    // ['zen']: i  ,
+    // ['zil']: i  ,
+    // ['zrx']: i  ,
 };
 
 interface Props extends SVGAttributes<any> {
