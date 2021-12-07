@@ -1,7 +1,6 @@
 import React, { SVGAttributes, useMemo } from 'react';
 
-import { CoinIconNameList } from '.';
-import { CoinIconName } from './names';
+import { CoinIconNameList, CoinIconName } from './names';
 
 const icons: Record<string, React.FC> = {};
 

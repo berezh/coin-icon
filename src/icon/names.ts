@@ -1,5 +1,5 @@
 const stringLitArray = <L extends string>(arr: L[]) => arr;
-export const CoinIconNameList = stringLitArray([
+export const CoinIconNameList = [
     '1st',
     '300',
     'ada',
@@ -310,6 +310,8 @@ export const CoinIconNameList = stringLitArray([
     'zen',
     'zil',
     'zrx',
-]);
+];
 
-export type CoinIconName = typeof CoinIconNameList[number];
+const coinLitArray = stringLitArray(CoinIconNameList);
+
+export type CoinIconName = typeof coinLitArray[number];
