@@ -20,7 +20,7 @@ npm i coin-icon
 
 -   [Usage](#Usage)
 -   [CoinIcon](#CoinIcon)
--   [Add new icon](#Add_new_icon)
+-   [Add new icon](#add-new-icon)
 
 ## Usage
 
