@@ -192,127 +192,127 @@ import npxs from '../svg/npxs.svg';
 import nut from '../svg/nut.svg';
 import nvc from '../svg/nvc.svg';
 import nxt from '../svg/nxt.svg';
-// import    from '../svg/oax.svg';
-// import    from '../svg/ok.svg';
-// import    from '../svg/omg.svg';
-// import    from '../svg/omni.svg';
-// import    from '../svg/ong.svg';
-// import    from '../svg/ont.svg';
-// import    from '../svg/opal.svg';
-// import    from '../svg/part.svg';
-// import    from '../svg/pax.svg';
-// import    from '../svg/pay.svg';
-// import    from '../svg/piggy.svg';
-// import    from '../svg/pink.svg';
-// import    from '../svg/pivx.svg';
-// import    from '../svg/plbt.svg';
-// import    from '../svg/plr.svg';
-// import    from '../svg/plu.svg';
-// import    from '../svg/pot.svg';
-// import    from '../svg/powr.svg';
-// import    from '../svg/ppc.svg';
-// import    from '../svg/ptoy.svg';
-// import    from '../svg/pyn.svg';
-// import    from '../svg/qcn.svg';
-// import    from '../svg/qrk.svg';
-// import    from '../svg/qtum.svg';
-// import    from '../svg/r.svg';
-// import    from '../svg/rads.svg';
-// import    from '../svg/rbies.svg';
-// import    from '../svg/rbt.svg';
-// import    from '../svg/rby.svg';
-// import    from '../svg/rcn.svg';
-// import    from '../svg/rdd.svg';
-// import    from '../svg/rep.svg';
-// import    from '../svg/rhoc.svg';
-// import    from '../svg/rise.svg';
-// import    from '../svg/rlc.svg';
-// import    from '../svg/rvn.svg';
-// import    from '../svg/salt.svg';
-// import    from '../svg/sar.svg';
-// import    from '../svg/sbtc.svg';
-// import    from '../svg/sc.svg';
-// import    from '../svg/scot.svg';
-// import    from '../svg/sdc.svg';
-// import    from '../svg/sia.svg';
-// import    from '../svg/sjcx.svg';
-// import    from '../svg/slg.svg';
-// import    from '../svg/sls.svg';
-// import    from '../svg/smart.svg';
-// import    from '../svg/sngls.svg';
-// import    from '../svg/snm.svg';
-// import    from '../svg/snrg.svg';
-// import    from '../svg/snt.svg';
-// import    from '../svg/srn.svg';
-// import    from '../svg/start.svg';
-// import    from '../svg/stash.svg';
-// import    from '../svg/steem.svg';
-// import    from '../svg/storj.svg';
-// import    from '../svg/str.svg';
-// import    from '../svg/strat.svg';
-// import    from '../svg/stx.svg';
-// import    from '../svg/swift.svg';
-// import    from '../svg/swt.svg';
-// import    from '../svg/sync.svg';
-// import    from '../svg/synx.svg';
-// import    from '../svg/sys.svg';
-// import    from '../svg/time.svg';
-// import    from '../svg/tip.svg';
-// import    from '../svg/tix.svg';
-// import    from '../svg/tkn.svg';
-// import    from '../svg/trezor.svg';
-// import    from '../svg/trig.svg';
-// import    from '../svg/trst.svg';
-// import    from '../svg/trx.svg';
-// import    from '../svg/tusd.svg';
-// import    from '../svg/tx.svg';
-// import    from '../svg/ubq.svg';
-// import    from '../svg/ukg.svg';
-// import    from '../svg/und.svg';
-// import    from '../svg/unity.svg';
-// import    from '../svg/usd.svg';
-// import    from '../svg/usdc.svg';
-// import    from '../svg/usdt.svg';
-// import    from '../svg/ven.svg';
-// import    from '../svg/vera.svg';
-// import    from '../svg/veri.svg';
-// import    from '../svg/vet.svg';
-// import    from '../svg/via.svg';
-// import    from '../svg/vib.svg';
-// import    from '../svg/vior.svg';
-// import    from '../svg/viu.svg';
-// import    from '../svg/vnl.svg';
-// import    from '../svg/vpn.svg';
-// import    from '../svg/vrc.svg';
-// import    from '../svg/vtc.svg';
-// import    from '../svg/vtho.svg';
-// import    from '../svg/wan.svg';
-// import    from '../svg/waves.svg';
-// import    from '../svg/wax.svg';
-// import    from '../svg/wings.svg';
-// import    from '../svg/xai.svg';
-// import    from '../svg/xaur.svg';
-// import    from '../svg/xbs.svg';
-// import    from '../svg/xcp.svg';
-// import    from '../svg/xdn.svg';
-// import    from '../svg/xel.svg';
-// import    from '../svg/xem.svg';
-// import    from '../svg/xlm.svg';
-// import    from '../svg/xmr.svg';
-// import    from '../svg/xnn.svg';
-// import    from '../svg/xns.svg';
-// import    from '../svg/xpm.svg';
-// import    from '../svg/xrp.svg';
-// import    from '../svg/xtz.svg';
-// import    from '../svg/xvg.svg';
-// import    from '../svg/xzc.svg';
-// import    from '../svg/ybc.svg';
-// import    from '../svg/yec.svg';
-// import    from '../svg/zec.svg';
-// import    from '../svg/zeit.svg';
-// import    from '../svg/zen.svg';
-// import    from '../svg/zil.svg';
-// import    from '../svg/zrx.svg';
+import oax from '../svg/oax.svg';
+import ok from '../svg/ok.svg';
+import omg from '../svg/omg.svg';
+import omni from '../svg/omni.svg';
+import ong from '../svg/ong.svg';
+import ont from '../svg/ont.svg';
+import opal from '../svg/opal.svg';
+import part from '../svg/part.svg';
+import pax from '../svg/pax.svg';
+import pay from '../svg/pay.svg';
+import piggy from '../svg/piggy.svg';
+import pink from '../svg/pink.svg';
+import pivx from '../svg/pivx.svg';
+import plbt from '../svg/plbt.svg';
+import plr from '../svg/plr.svg';
+import plu from '../svg/plu.svg';
+import pot from '../svg/pot.svg';
+import powr from '../svg/powr.svg';
+import ppc from '../svg/ppc.svg';
+import ptoy from '../svg/ptoy.svg';
+import pyn from '../svg/pyn.svg';
+import qcn from '../svg/qcn.svg';
+import qrk from '../svg/qrk.svg';
+import qtum from '../svg/qtum.svg';
+import r from '../svg/r.svg';
+import rads from '../svg/rads.svg';
+import rbies from '../svg/rbies.svg';
+import rbt from '../svg/rbt.svg';
+import rby from '../svg/rby.svg';
+import rcn from '../svg/rcn.svg';
+import rdd from '../svg/rdd.svg';
+import rep from '../svg/rep.svg';
+import rhoc from '../svg/rhoc.svg';
+import rise from '../svg/rise.svg';
+import rlc from '../svg/rlc.svg';
+import rvn from '../svg/rvn.svg';
+import salt from '../svg/salt.svg';
+import sar from '../svg/sar.svg';
+import sbtc from '../svg/sbtc.svg';
+import sc from '../svg/sc.svg';
+import scot from '../svg/scot.svg';
+import sdc from '../svg/sdc.svg';
+import sia from '../svg/sia.svg';
+import sjcx from '../svg/sjcx.svg';
+import slg from '../svg/slg.svg';
+import sls from '../svg/sls.svg';
+import smart from '../svg/smart.svg';
+import sngls from '../svg/sngls.svg';
+import snm from '../svg/snm.svg';
+import snrg from '../svg/snrg.svg';
+import snt from '../svg/snt.svg';
+import srn from '../svg/srn.svg';
+import start from '../svg/start.svg';
+import stash from '../svg/stash.svg';
+import steem from '../svg/steem.svg';
+import storj from '../svg/storj.svg';
+import str from '../svg/str.svg';
+import strat from '../svg/strat.svg';
+import stx from '../svg/stx.svg';
+import swift from '../svg/swift.svg';
+import swt from '../svg/swt.svg';
+import sync from '../svg/sync.svg';
+import synx from '../svg/synx.svg';
+import sys from '../svg/sys.svg';
+import time from '../svg/time.svg';
+import tip from '../svg/tip.svg';
+import tix from '../svg/tix.svg';
+import tkn from '../svg/tkn.svg';
+import trezor from '../svg/trezor.svg';
+import trig from '../svg/trig.svg';
+import trst from '../svg/trst.svg';
+import trx from '../svg/trx.svg';
+import tusd from '../svg/tusd.svg';
+import tx from '../svg/tx.svg';
+import ubq from '../svg/ubq.svg';
+import ukg from '../svg/ukg.svg';
+import und from '../svg/und.svg';
+import unity from '../svg/unity.svg';
+import usd from '../svg/usd.svg';
+import usdc from '../svg/usdc.svg';
+import usdt from '../svg/usdt.svg';
+import ven from '../svg/ven.svg';
+import vera from '../svg/vera.svg';
+import veri from '../svg/veri.svg';
+import vet from '../svg/vet.svg';
+import via from '../svg/via.svg';
+import vib from '../svg/vib.svg';
+import vior from '../svg/vior.svg';
+import viu from '../svg/viu.svg';
+import vnl from '../svg/vnl.svg';
+import vpn from '../svg/vpn.svg';
+import vrc from '../svg/vrc.svg';
+import vtc from '../svg/vtc.svg';
+import vtho from '../svg/vtho.svg';
+import wan from '../svg/wan.svg';
+import waves from '../svg/waves.svg';
+import wax from '../svg/wax.svg';
+import wings from '../svg/wings.svg';
+import xai from '../svg/xai.svg';
+import xaur from '../svg/xaur.svg';
+import xbs from '../svg/xbs.svg';
+import xcp from '../svg/xcp.svg';
+import xdn from '../svg/xdn.svg';
+import xel from '../svg/xel.svg';
+import xem from '../svg/xem.svg';
+import xlm from '../svg/xlm.svg';
+import xmr from '../svg/xmr.svg';
+import xnn from '../svg/xnn.svg';
+import xns from '../svg/xns.svg';
+import xpm from '../svg/xpm.svg';
+import xrp from '../svg/xrp.svg';
+import xtz from '../svg/xtz.svg';
+import xvg from '../svg/xvg.svg';
+import xzc from '../svg/xzc.svg';
+import ybc from '../svg/ybc.svg';
+import yec from '../svg/yec.svg';
+import zec from '../svg/zec.svg';
+import zeit from '../svg/zeit.svg';
+import zen from '../svg/zen.svg';
+import zil from '../svg/zil.svg';
+import zrx from '../svg/zrx.svg';
 
 const icons: Record<string, React.FC> = {
     ['1st']: i1st,
@@ -504,127 +504,127 @@ const icons: Record<string, React.FC> = {
     ['nut']: nut,
     ['nvc']: nvc,
     ['nxt']: nxt,
-    // ['oax']:    ,
-    // ['ok']:    ,
-    // ['omg']:    ,
-    // ['omni']:    ,
-    // ['ong']:    ,
-    // ['ont']:    ,
-    // ['opal']:    ,
-    // ['part']:    ,
-    // ['pax']:    ,
-    // ['pay']:    ,
-    // ['piggy']:    ,
-    // ['pink']:    ,
-    // ['pivx']:    ,
-    // ['plbt']:    ,
-    // ['plr']:    ,
-    // ['plu']:    ,
-    // ['pot']:    ,
-    // ['powr']:    ,
-    // ['ppc']:    ,
-    // ['ptoy']:    ,
-    // ['pyn']:    ,
-    // ['qcn']:    ,
-    // ['qrk']:    ,
-    // ['qtum']:    ,
-    // ['r']:    ,
-    // ['rads']:    ,
-    // ['rbies']:    ,
-    // ['rbt']:    ,
-    // ['rby']:    ,
-    // ['rcn']:    ,
-    // ['rdd']:    ,
-    // ['rep']:    ,
-    // ['rhoc']:    ,
-    // ['rise']:    ,
-    // ['rlc']:    ,
-    // ['rvn']:    ,
-    // ['salt']:    ,
-    // ['sar']:    ,
-    // ['sbtc']:    ,
-    // ['sc']:    ,
-    // ['scot']:    ,
-    // ['sdc']:    ,
-    // ['sia']:    ,
-    // ['sjcx']:    ,
-    // ['slg']:    ,
-    // ['sls']:    ,
-    // ['smart']:    ,
-    // ['sngls']:    ,
-    // ['snm']:    ,
-    // ['snrg']:    ,
-    // ['snt']:    ,
-    // ['srn']:    ,
-    // ['start']:    ,
-    // ['stash']:    ,
-    // ['steem']:    ,
-    // ['storj']:    ,
-    // ['str']:    ,
-    // ['strat']:    ,
-    // ['stx']:    ,
-    // ['swift']:    ,
-    // ['swt']:    ,
-    // ['sync']:    ,
-    // ['synx']:    ,
-    // ['sys']:    ,
-    // ['time']:    ,
-    // ['tip']:    ,
-    // ['tix']:    ,
-    // ['tkn']:    ,
-    // ['trezor']:    ,
-    // ['trig']:    ,
-    // ['trst']:    ,
-    // ['trx']:    ,
-    // ['tusd']:    ,
-    // ['tx']:    ,
-    // ['ubq']:    ,
-    // ['ukg']:    ,
-    // ['und']:    ,
-    // ['unity']:    ,
-    // ['usd']:    ,
-    // ['usdc']:    ,
-    // ['usdt']:    ,
-    // ['ven']:    ,
-    // ['vera']:    ,
-    // ['veri']:    ,
-    // ['vet']:    ,
-    // ['via']:    ,
-    // ['vib']:    ,
-    // ['vior']:    ,
-    // ['viu']:    ,
-    // ['vnl']:    ,
-    // ['vpn']:    ,
-    // ['vrc']:    ,
-    // ['vtc']:    ,
-    // ['vtho']:    ,
-    // ['wan']:    ,
-    // ['waves']:    ,
-    // ['wax']:    ,
-    // ['wings']:    ,
-    // ['xai']:    ,
-    // ['xaur']:    ,
-    // ['xbs']:    ,
-    // ['xcp']:    ,
-    // ['xdn']:    ,
-    // ['xel']:    ,
-    // ['xem']:    ,
-    // ['xlm']:    ,
-    // ['xmr']:    ,
-    // ['xnn']:    ,
-    // ['xns']:    ,
-    // ['xpm']:    ,
-    // ['xrp']:    ,
-    // ['xtz']:    ,
-    // ['xvg']:    ,
-    // ['xzc']:    ,
-    // ['ybc']:    ,
-    // ['yec']:    ,
-    // ['zec']:    ,
-    // ['zeit']:    ,
-    // ['zen']:    ,
-    // ['zil']:    ,
-    // ['zrx']:    ,
+    ['oax']: oax,
+    ['ok']: ok,
+    ['omg']: omg,
+    ['omni']: omni,
+    ['ong']: ong,
+    ['ont']: ont,
+    ['opal']: opal,
+    ['part']: part,
+    ['pax']: pax,
+    ['pay']: pay,
+    ['piggy']: piggy,
+    ['pink']: pink,
+    ['pivx']: pivx,
+    ['plbt']: plbt,
+    ['plr']: plr,
+    ['plu']: plu,
+    ['pot']: pot,
+    ['powr']: powr,
+    ['ppc']: ppc,
+    ['ptoy']: ptoy,
+    ['pyn']: pyn,
+    ['qcn']: qcn,
+    ['qrk']: qrk,
+    ['qtum']: qtum,
+    ['r']: r,
+    ['rads']: rads,
+    ['rbies']: rbies,
+    ['rbt']: rbt,
+    ['rby']: rby,
+    ['rcn']: rcn,
+    ['rdd']: rdd,
+    ['rep']: rep,
+    ['rhoc']: rhoc,
+    ['rise']: rise,
+    ['rlc']: rlc,
+    ['rvn']: rvn,
+    ['salt']: salt,
+    ['sar']: sar,
+    ['sbtc']: sbtc,
+    ['sc']: sc,
+    ['scot']: scot,
+    ['sdc']: sdc,
+    ['sia']: sia,
+    ['sjcx']: sjcx,
+    ['slg']: slg,
+    ['sls']: sls,
+    ['smart']: smart,
+    ['sngls']: sngls,
+    ['snm']: snm,
+    ['snrg']: snrg,
+    ['snt']: snt,
+    ['srn']: srn,
+    ['start']: start,
+    ['stash']: stash,
+    ['steem']: steem,
+    ['storj']: storj,
+    ['str']: str,
+    ['strat']: strat,
+    ['stx']: stx,
+    ['swift']: swift,
+    ['swt']: swt,
+    ['sync']: sync,
+    ['synx']: synx,
+    ['sys']: sys,
+    ['time']: time,
+    ['tip']: tip,
+    ['tix']: tix,
+    ['tkn']: tkn,
+    ['trezor']: trezor,
+    ['trig']: trig,
+    ['trst']: trst,
+    ['trx']: trx,
+    ['tusd']: tusd,
+    ['tx']: tx,
+    ['ubq']: ubq,
+    ['ukg']: ukg,
+    ['und']: und,
+    ['unity']: unity,
+    ['usd']: usd,
+    ['usdc']: usdc,
+    ['usdt']: usdt,
+    ['ven']: ven,
+    ['vera']: vera,
+    ['veri']: veri,
+    ['vet']: vet,
+    ['via']: via,
+    ['vib']: vib,
+    ['vior']: vior,
+    ['viu']: viu,
+    ['vnl']: vnl,
+    ['vpn']: vpn,
+    ['vrc']: vrc,
+    ['vtc']: vtc,
+    ['vtho']: vtho,
+    ['wan']: wan,
+    ['waves']: waves,
+    ['wax']: wax,
+    ['wings']: wings,
+    ['xai']: xai,
+    ['xaur']: xaur,
+    ['xbs']: xbs,
+    ['xcp']: xcp,
+    ['xdn']: xdn,
+    ['xel']: xel,
+    ['xem']: xem,
+    ['xlm']: xlm,
+    ['xmr']: xmr,
+    ['xnn']: xnn,
+    ['xns']: xns,
+    ['xpm']: xpm,
+    ['xrp']: xrp,
+    ['xtz']: xtz,
+    ['xvg']: xvg,
+    ['xzc']: xzc,
+    ['ybc']: ybc,
+    ['yec']: yec,
+    ['zec']: zec,
+    ['zeit']: zeit,
+    ['zen']: zen,
+    ['zil']: zil,
+    ['zrx']: zrx,
 };
 
 interface Props extends SVGAttributes<any> {
