@@ -40,12 +40,12 @@ export default [
         plugins,
         output: [
             { file: pkg.main, format: 'cjs' },
-            { file: pkg.module, format: 'esm' },
-            {
-                file: 'D:/berezh/varp/src/coin-icon/index.js',
-                format: 'es',
-                banner: '/* eslint-disable */',
-            },
+            // { file: pkg.module, format: 'esm' },
+            // {
+            //     file: 'D:/berezh/varp/src/coin-icon/index.js',
+            //     format: 'es',
+            //     banner: '/* eslint-disable */',
+            // },
         ],
     },
 ];

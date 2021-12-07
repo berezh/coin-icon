@@ -19,4 +19,6 @@ jobs:
     - run: npm run build
     - run: npm publish
       env:
+        BUILD: production
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        
