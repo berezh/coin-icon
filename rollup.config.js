@@ -14,7 +14,7 @@ const plugins = [
     scss({
         output: false,
     }),
-    svg(),
+    svg({ stringify: false }),
     // copy({
     //     targets: [
     //         {
