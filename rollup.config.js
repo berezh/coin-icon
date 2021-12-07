@@ -1,7 +1,7 @@
 import typescript from 'rollup-plugin-typescript2';
 import scss from 'rollup-plugin-scss';
 import { uglify } from 'rollup-plugin-uglify';
-import svg from 'rollup-plugin-svg-import';
+import svgr from '@svgr/rollup';
 // import copy from 'rollup-plugin-copy';
 
 import pkg from './package.json';
@@ -14,7 +14,7 @@ const plugins = [
     scss({
         output: false,
     }),
-    svg({ stringify: false }),
+    svgr(),
     // copy({
     //     targets: [
     //         {
@@ -42,6 +42,11 @@ export default [
         output: [
             { file: pkg.main, format: 'cjs' },
             { file: pkg.module, format: 'esm' },
+            {
+                file: 'D:/berezh/varp/src/coin-icon/index.js',
+                format: 'es',
+                banner: '/* eslint-disable */',
+            },
         ],
     },
 ];

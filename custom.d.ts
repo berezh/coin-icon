@@ -1,6 +1,3 @@
-declare module '*.svg' {
-    const content: any;
-    export default content;
-}
+declare module '*.svg';
 
-declare function require(name: string): any;
+// declare function require(name: string): any;
