@@ -2,7 +2,6 @@ import typescript from 'rollup-plugin-typescript2';
 import scss from 'rollup-plugin-scss';
 import { uglify } from 'rollup-plugin-uglify';
 import svgr from '@svgr/rollup';
-import copy from 'rollup-plugin-copy';
 
 import pkg from './package.json';
 
@@ -19,7 +18,7 @@ const plugins = [
     //     targets: [
     //         {
     //             src: 'src/icon/svg',
-    //             dest: ['dist', 'D:/berezh/varp/src/coin-icon'],
+    //             dest: ['dist', 'varp/src/coin-icon'],
     //         },
     //     ],
     // }),
