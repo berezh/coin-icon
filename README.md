@@ -34,11 +34,9 @@ import { CoinIcon } from 'coin-icon';
 
 CoinIcon component contains all properties declared in `SVGAttributes` interface from `@types/react` package and custom properties described below:
 
-
-| Property | Description    | Description |
+| Property | Type           | Description |
 | -------- | -------------- | ----------- |
 | `name`   | `CoinIconName` | Icon name   |
-
 
 ## Add new icon
 
