@@ -1,6 +1,6 @@
 {
     "name": "coin-icon",
-    "version": "0.0.6",
+    "version": "1.0.0",
     "description": "Cryptocurrency icons",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
