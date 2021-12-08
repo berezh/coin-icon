@@ -66,6 +66,10 @@
     },
     "homepage": "https://github.com/berezh/coin-icon#readme",
     "files": [
-        "dist"
+        "index.d.ts",
+        "embed",
+        "icon",
+        "interfaces",
+        "provider"
     ]
 }
