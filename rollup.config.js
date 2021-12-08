@@ -29,6 +29,7 @@ const plugins = [
 ];
 
 // if (process.env.BUILD === 'production') {
+console.info('BUILD', process.env.BUILD);
 plugins.push(
     uglify({
         nameCache: {},
