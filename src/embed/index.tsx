@@ -630,7 +630,7 @@ interface Props extends SVGAttributes<any> {
     name: CoinIconName;
 }
 
-export const EmbedCoinIcon: React.FC<Props> = ({ name, style, ...props }) => {
+export const EmbedIcon: React.FC<Props> = ({ name, style, ...props }) => {
     const svgAttrs: Partial<SVGAttributes<any>> = useMemo(() => {
         return {
             fill: 'currentColor',
