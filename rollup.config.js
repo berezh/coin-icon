@@ -43,11 +43,11 @@ export default [
         plugins: [getTypecriptPlugin('tsconfig.main.json'), ...plugins],
         output: [
             { file: pkg.main, format: 'cjs' },
-            {
-                file: 'D:/berezh/varp/src/coin-icon/index.js',
-                format: 'es',
-                banner: '/* eslint-disable */',
-            },
+            // {
+            //     file: 'D:/berezh/varp/src/coin-icon/index.js',
+            //     format: 'es',
+            //     banner: '/* eslint-disable */',
+            // },
         ],
     },
     {
@@ -56,11 +56,11 @@ export default [
         plugins: [getTypecriptPlugin('tsconfig.embed.json'), ...plugins],
         output: [
             { file: 'embed.js', format: 'cjs' },
-            {
-                file: 'D:/berezh/varp/src/coin-icon/embed.js',
-                format: 'es',
-                banner: '/* eslint-disable */',
-            },
+            // {
+            //     file: 'D:/berezh/varp/src/coin-icon/embed.js',
+            //     format: 'es',
+            //     banner: '/* eslint-disable */',
+            // },
         ],
     },
 ];
