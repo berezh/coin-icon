@@ -18,17 +18,8 @@ const plugins = [
         output: false,
     }),
     svgr(),
-    // copy({
-    //     targets: [
-    //         {
-    //             src: 'src/icon/svg',
-    //             dest: ['dist', 'varp/src/coin-icon'],
-    //         },
-    //     ],
-    // }),
 ];
 
-console.info('BUILD', process.env.BUILD);
 if (process.env.BUILD === 'production') {
     plugins.push(
         uglify({
