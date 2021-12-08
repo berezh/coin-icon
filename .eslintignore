@@ -1,2 +1,9 @@
 node_modules
 dist
+embed
+icon
+interfaces
+provider
+embed.js
+index.d.ts
+index.js

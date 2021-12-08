@@ -13,13 +13,12 @@
         "esModuleInterop": true,
         "baseUrl": ".",
         "paths": {
-            "lib/*": ["src/lib/*"],
             "src/*": ["src/*"]
         },
         "resolveJsonModule": true,
         "strictNullChecks": true,
-        "noImplicitAny": true,
-        "outDir": "./dist",
+        "noImplicitAny": true,     
+        "outDir": ".",        
     },
     "include": ["src", "custom.d.ts"],
     "exclude": ["node_modules"]

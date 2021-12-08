@@ -5,11 +5,15 @@ import svgr from '@svgr/rollup';
 
 import pkg from './package.json';
 
-const plugins = [
-    typescript({
+function getTypecriptPlugin(tsconfig) {
+    return typescript({
         typescript: require('typescript'),
         objectHashIgnoreUnknownHack: true,
-    }),
+        tsconfig,
+    });
+}
+
+const plugins = [
     scss({
         output: false,
     }),
@@ -36,11 +40,9 @@ export default [
     {
         input: 'src/index.ts',
         dest: 'index.js',
-        external: Object.keys(pkg.peerDependencies || {}),
-        plugins,
+        plugins: [getTypecriptPlugin('tsconfig.main.json'), ...plugins],
         output: [
             { file: pkg.main, format: 'cjs' },
-            // { file: pkg.module, format: 'esm' },
             {
                 file: 'D:/berezh/varp/src/coin-icon/index.js',
                 format: 'es',
@@ -48,18 +50,17 @@ export default [
             },
         ],
     },
-    // {
-    //     input: 'src/embed/index.tsx',
-    //     dest: 'embed/index.js',
-    //     external: Object.keys(pkg.peerDependencies || {}),
-    //     plugins,
-    //     output: [
-    //         { file: 'dist/embed/index.js', format: 'cjs' },
-    //         // {
-    //         //     file: 'D:/berezh/varp/src/coin-icon/embed/index.js',
-    //         //     format: 'es',
-    //         //     banner: '/* eslint-disable */',
-    //         // },
-    //     ],
-    // },
+    {
+        input: 'src/embed/index.tsx',
+        dest: 'embed.js',
+        plugins: [getTypecriptPlugin('tsconfig.embed.json'), ...plugins],
+        output: [
+            { file: 'embed.js', format: 'cjs' },
+            {
+                file: 'D:/berezh/varp/src/coin-icon/embed.js',
+                format: 'es',
+                banner: '/* eslint-disable */',
+            },
+        ],
+    },
 ];

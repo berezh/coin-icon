@@ -1,0 +1,5 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["src/embed", "custom.d.ts"],
+    "exclude": ["node_modules"]
+}

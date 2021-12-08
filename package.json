@@ -1,9 +1,9 @@
 {
     "name": "coin-icon",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Cryptocurrency icons",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "main": "index.js",
+    "types": "index.d.ts",
     "devDependencies": {
         "@babel/preset-typescript": "^7.16.0",
         "@svgr/rollup": "^6.1.1",
