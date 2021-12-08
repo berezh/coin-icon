@@ -1,27 +1,35 @@
-import React, { ImgHTMLAttributes, useMemo } from 'react';
+import React, { HTMLAttributes, useMemo } from 'react';
 
 import { useCoinIconFolderPath } from 'src/provider';
 import { CoinIconName } from '../interfaces';
 
-interface Props extends Omit<ImgHTMLAttributes<any>, 'src'> {
+interface Props extends HTMLAttributes<HTMLDivElement> {
     name: CoinIconName;
 }
 
 export const CoinIcon: React.FC<Props> = ({ name, style, ...props }) => {
     const folderPath = useCoinIconFolderPath();
 
-    const src = useMemo(() => {
+    const imagePath = useMemo(() => {
         const path = (folderPath || '').replace(/\/+$/, '');
         return `${path}/${name}.svg`;
     }, [folderPath, name]);
 
-    const svgAttrs: Partial<ImgHTMLAttributes<any>> = useMemo(() => {
+    const svgAttrs: Partial<HTMLAttributes<HTMLDivElement>> = useMemo(() => {
+        const mask = `url(${imagePath}) no-repeat center`;
         return {
-            style: { display: 'inline-block', height: '1em', ...style },
-            src,
+            style: {
+                backgroundColor: 'var(--coinIconColor)',
+                display: 'inline-block',
+                height: '1em',
+                width: '1em',
+                mask,
+                WebkitMask: mask,
+                ...style,
+            },
             ...props,
         };
-    }, [style, src, props]);
+    }, [style, imagePath, props]);
 
-    return <img {...svgAttrs} />;
+    return <div {...svgAttrs} />;
 };
