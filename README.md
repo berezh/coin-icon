@@ -18,18 +18,9 @@ npm i coin-icon
 
 ## Glossary
 
--   [Usage](#Usage)
 -   [EmbedIcon](#EmbedIcon)
 -   [CoinIcon](#CoinIcon)
 -   [Add new icon](#add-new-icon)
-
-## Usage
-
-```tsx
-import { CoinIcon } from 'coin-icon';
-
-<CoinIcon name="btc" />;
-```
 
 ## EmbedIcon
 
@@ -82,6 +73,7 @@ import { CoinIcon } from 'coin-icon/embed';
 
 <CoinIcon name="btc" />;
 ```
+
 **Details**
 
 Contains all properties declared in `HTMLAttributes<HTMLDivElement>` interface from `@types/react` package and custom properties described below:
@@ -89,7 +81,6 @@ Contains all properties declared in `HTMLAttributes<HTMLDivElement>` interface f
 | Property | Type           | Description                          |
 | -------- | -------------- | ------------------------------------ |
 | `name`   | `CoinIconName` | TypeScript literal type of icon name |
-
 
 ## Add new icon
 
