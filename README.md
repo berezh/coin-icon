@@ -43,6 +43,8 @@ import { EmbedIcon } from 'coin-icon/embed';
 
 But it has one disadvantage, all icons are embed into code. So if you use `EmbedIcon` it will expand the bundle of your code with all possible icons even you don't use them. This problem is solved in [CoinIcon](#CoinIcon)
 
+**Details**
+
 Contains all properties declared in `SVGAttributes` interface from `@types/react` package and custom properties described below:
 
 | Property | Type           | Description                          |
@@ -53,7 +55,7 @@ Contains all properties declared in `SVGAttributes` interface from `@types/react
 
 Optimazed way to use icons, since the icon is loading through URL.
 
-**Gettting started:**
+**Gettting started**
 
 1. Fist of all you need to define the path for storing icons files. For example - `images/svg/crypto`;
 2. Copy all svg icons from [src/svg](#https://github.com/berezh/coin-icon/tree/master/src/svg) to your public folder `images/svg/crypto`;
@@ -80,6 +82,14 @@ import { CoinIcon } from 'coin-icon/embed';
 
 <CoinIcon name="btc" />;
 ```
+**Details**
+
+Contains all properties declared in `HTMLAttributes<HTMLDivElement>` interface from `@types/react` package and custom properties described below:
+
+| Property | Type           | Description                          |
+| -------- | -------------- | ------------------------------------ |
+| `name`   | `CoinIconName` | TypeScript literal type of icon name |
+
 
 ## Add new icon
 
