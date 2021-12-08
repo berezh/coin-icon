@@ -1,7 +1,7 @@
 import React, { HTMLAttributes, useMemo } from 'react';
 
 import { useCoinIconFolderPath } from 'src/provider';
-import { CoinIconName } from '../interfaces';
+import { CoinIconName, CoinIconNameList } from '../interfaces';
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
     name: CoinIconName;
@@ -9,6 +9,10 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
 
 export const CoinIcon: React.FC<Props> = ({ name, style, ...props }) => {
     const folderPath = useCoinIconFolderPath();
+
+    const exists = useMemo(()=>{
+        return CoinIconNameList.find(x=>x === (name||'').toLowerCase());
+    }, [name]);
 
     const imagePath = useMemo(() => {
         const path = (folderPath || '').replace(/\/+$/, '');
@@ -31,5 +35,5 @@ export const CoinIcon: React.FC<Props> = ({ name, style, ...props }) => {
         };
     }, [style, imagePath, props]);
 
-    return <div {...svgAttrs} />;
+    return exists? <div {...svgAttrs} />:null;
 };
