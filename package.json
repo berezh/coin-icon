@@ -1,6 +1,6 @@
 {
     "name": "coin-icon",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Cryptocurrency icons",
     "main": "index.js",
     "types": "index.d.ts",

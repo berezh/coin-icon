@@ -28,13 +28,13 @@ const plugins = [
     // }),
 ];
 
-if (process.env.BUILD === 'production') {
-    plugins.push(
-        uglify({
-            nameCache: {},
-        })
-    );
-}
+// if (process.env.BUILD === 'production') {
+plugins.push(
+    uglify({
+        nameCache: {},
+    })
+);
+// }
 
 export default [
     {
