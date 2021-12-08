@@ -41,11 +41,25 @@ export default [
         output: [
             { file: pkg.main, format: 'cjs' },
             // { file: pkg.module, format: 'esm' },
-            // {
-            //     file: 'D:/berezh/varp/src/coin-icon/index.js',
-            //     format: 'es',
-            //     banner: '/* eslint-disable */',
-            // },
+            {
+                file: 'D:/berezh/varp/src/coin-icon/index.js',
+                format: 'es',
+                banner: '/* eslint-disable */',
+            },
         ],
     },
+    // {
+    //     input: 'src/embed/index.tsx',
+    //     dest: 'embed/index.js',
+    //     external: Object.keys(pkg.peerDependencies || {}),
+    //     plugins,
+    //     output: [
+    //         { file: 'dist/embed/index.js', format: 'cjs' },
+    //         // {
+    //         //     file: 'D:/berezh/varp/src/coin-icon/embed/index.js',
+    //         //     format: 'es',
+    //         //     banner: '/* eslint-disable */',
+    //         // },
+    //     ],
+    // },
 ];

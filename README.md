@@ -34,13 +34,13 @@ import { CoinIcon } from 'coin-icon';
 
 CoinIcon component contains all properties declared in `SVGAttributes` interface from `@types/react` package and custom properties described below:
 
-| Property | Type           | Description |
-| -------- | -------------- | ----------- |
-| `name`   | `CoinIconName` | Icon name   |
+| Property | Type           | Description                          |
+| -------- | -------------- | ------------------------------------ |
+| `name`   | `CoinIconName` | TypeScript literal type of icon name |
 
 ## Add new icon
 
-1. Add new svg file into `src/icon/svg` folder
+1. Add new svg file into `src/svg` folder
 
 ```tsx
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -51,7 +51,7 @@ CoinIcon component contains all properties declared in `SVGAttributes` interface
 
 Make sure that `width` and `height` property are removed.
 
-2. Add to `src/icon/names.ts` file:
+2. Add to `src/interfaces/index.ts` file:
 
 ```tsx
 export const CoinIconNameList = [
@@ -63,12 +63,12 @@ export const CoinIconNameList = [
 ];
 ```
 
-3. Add to `src/icon/component/index.ts` file:
+3. Add to `src/icon/index.ts` file:
 
 ```tsx
 
 /* start */
-import newIcon from './svg/new-icon.svg';
+import newIcon from '../svg/new-icon.svg';
 /* end */
 
 const icons: Record<string, React.FC> = {

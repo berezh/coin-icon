@@ -3,7 +3,6 @@
     "version": "1.0.4",
     "description": "Cryptocurrency icons",
     "main": "dist/index.js",
-    "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
     "devDependencies": {
         "@babel/preset-typescript": "^7.16.0",
