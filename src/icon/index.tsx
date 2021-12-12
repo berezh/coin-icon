@@ -1,23 +1,23 @@
 import React, { HTMLAttributes, useMemo } from 'react';
 
 import { useCoinIconFolderPath } from 'src/provider';
-import { CoinIconName, CoinIconNameList } from '../interfaces';
+import { CoinIconCode, CoinIconCodeList } from '../interfaces';
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
-    name: CoinIconName;
+    code: CoinIconCode;
 }
 
-export const CoinIcon: React.FC<Props> = ({ name, style, ...props }) => {
+export const CoinIcon: React.FC<Props> = ({ code, style, ...props }) => {
     const folderPath = useCoinIconFolderPath();
 
     const exists = useMemo(()=>{
-        return CoinIconNameList.find(x=>x === (name||'').toLowerCase());
-    }, [name]);
+        return CoinIconCodeList.find(x=>x === (code||'').toLowerCase());
+    }, [code]);
 
     const imagePath = useMemo(() => {
         const path = (folderPath || '').replace(/\/+$/, '');
-        return `${path}/${name}.svg`;
-    }, [folderPath, name]);
+        return `${path}/${code}.svg`;
+    }, [folderPath, code]);
 
     const svgAttrs: Partial<HTMLAttributes<HTMLDivElement>> = useMemo(() => {
         const mask = `url(${imagePath}) no-repeat center`;
