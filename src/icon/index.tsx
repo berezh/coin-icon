@@ -12,8 +12,8 @@ export const CoinIcon: React.FC<Props> = ({ code, url, style, ...props }) => {
     const folderPath = useCoinIconFolderPath();
 
     const exists = useMemo(()=>{
-        return CoinIconCodeList.find(x=>x === (code||'').toLowerCase());
-    }, [code]);
+        return CoinIconCodeList.find(x=>x === (code||'').toLowerCase()) || url;
+    }, [code, url]);
 
     const imagePath = useMemo(() => {
         if(code){
