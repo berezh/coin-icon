@@ -43,7 +43,7 @@ Optimazed way to use icons, since the icon is loading through URL.
 ```tsx
 import { CoinIcon } from 'coin-icon';
 
-<CoinIcon name="btc" />;
+<CoinIcon code="btc" />;
 ```
 
 **Details**
