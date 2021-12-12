@@ -2,10 +2,8 @@
 node_modules
 .rpt2_cache
 dist
-embed
 icon
 interfaces
 provider
-embed.js
 index.d.ts
 index.js

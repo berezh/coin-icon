@@ -21,7 +21,6 @@ npm i coin-icon
 -   [CoinIcon](#CoinIcon)
 -   [Add new icon](#add-new-icon)
 
-
 ## CoinIcon
 
 Optimazed way to use icons, since the icon is loading through URL.
@@ -48,11 +47,13 @@ import { CoinIcon } from 'coin-icon';
 
 **Details**
 
-Contains all properties declared in `HTMLAttributes<HTMLDivElement>` interface from `@types/react` package and custom properties described below:
+-   Icon's `width` and `heigth` are equal to `1em` by default. To change icon's size change the `font-size` of parent or current `tag`.
+-   Contains all properties declared in `HTMLAttributes<HTMLDivElement>` interface from `@types/react` package and custom properties described below:
 
-| Property | Type           | Description                          |
-| -------- | -------------- | ------------------------------------ |
-| `code`   | `CoinIconCode` | TypeScript literal type of icon code |
+| Property | Type           | Required | Description                                            |
+| -------- | -------------- | -------- | ------------------------------------------------------ |
+| `code`   | `CoinIconCode` | No       | TypeScript literal type of icon code                   |
+| `url`    | `string`       | No       | Image URL. For a case, when icon for a code is missing |
 
 ## Add new icon
 
