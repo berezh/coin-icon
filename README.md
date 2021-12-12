@@ -18,29 +18,9 @@ npm i coin-icon
 
 ## Glossary
 
--   [EmbedIcon](#EmbedIcon)
 -   [CoinIcon](#CoinIcon)
 -   [Add new icon](#add-new-icon)
 
-## EmbedIcon
-
-The most easy way to use. All you need to do, is to import `EmbedIcon` component.
-
-```tsx
-import { EmbedIcon } from 'coin-icon/embed';
-
-<EmbedIcon name="btc" />;
-```
-
-But it has one disadvantage, all icons are embed into code. So if you use `EmbedIcon` it will expand the bundle of your code with all possible icons even you don't use them. This problem is solved in [CoinIcon](#CoinIcon)
-
-**Details**
-
-Contains all properties declared in `SVGAttributes` interface from `@types/react` package and custom properties described below:
-
-| Property | Type           | Description                          |
-| -------- | -------------- | ------------------------------------ |
-| `name`   | `CoinIconName` | TypeScript literal type of icon name |
 
 ## CoinIcon
 
@@ -48,28 +28,20 @@ Optimazed way to use icons, since the icon is loading through URL.
 
 **Gettting started**
 
-1. Fist of all you need to define the path for storing icons files. For example - `images/svg/crypto`;
-2. Copy all svg icons from `src/svg` (github repo) to your public folder `images/svg/crypto`;
+1. Fist of all you need to define the path for storing icons files. For example - `images/svg`;
+2. Copy all svg icons from `src/svg` (github repo) to your public folder `'images/svg`;
 3. Set up `CoinIconProvider` with public folder path:
 
 ```tsx
-<CoinIconProvider folderPath="images/svg/crypto">
+<CoinIconProvider folderPath="'images/svg">
     <App />
 </CoinIconProvider>
 ```
 
-4. Set up the color of the icons with CSS custom property `--coinIconColor`.
-
-```scss
-:root {
-    --coinIconColor: black;
-}
-```
-
-5. Import `CoinIcon` to your code:
+4. Import `CoinIcon` to your code:
 
 ```tsx
-import { CoinIcon } from 'coin-icon/embed';
+import { CoinIcon } from 'coin-icon';
 
 <CoinIcon name="btc" />;
 ```
@@ -80,11 +52,11 @@ Contains all properties declared in `HTMLAttributes<HTMLDivElement>` interface f
 
 | Property | Type           | Description                          |
 | -------- | -------------- | ------------------------------------ |
-| `name`   | `CoinIconName` | TypeScript literal type of icon name |
+| `code`   | `CoinIconCode` | TypeScript literal type of icon code |
 
 ## Add new icon
 
-1. Add new svg file into `src/svg` folder
+1. Add new svg file into `svg` folder
 
 ```tsx
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -105,23 +77,6 @@ export const CoinIconNameList = [
     /* end */
     ...
 ];
-```
-
-3. Add to `src/embed/index.ts` file:
-
-```tsx
-
-/* start */
-import newIcon from '../svg/new-icon.svg';
-/* end */
-
-const icons: Record<string, React.FC> = {
-    ...
-    /* start */
-    ['new-icon']: newIcon,
-    /* end */
-    ...
-};
 ```
 
 4. Create Pull Request
