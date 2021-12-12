@@ -29,7 +29,7 @@ Optimazed way to use icons, since the icon is loading through URL.
 **Gettting started**
 
 1. Fist of all you need to define the path for storing icons files. For example - `images/svg`;
-2. Copy all svg icons from `src/svg` (github repo) to your public folder `'images/svg`;
+2. Copy all svg icons from `svg` (github repo) to your public folder `'images/svg`;
 3. Set up `CoinIconProvider` with public folder path:
 
 ```tsx
