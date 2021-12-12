@@ -1,14 +1,13 @@
 import React, { HTMLAttributes, useMemo } from 'react';
+import { CoinIconCode, CoinIconCodeList } from 'src/interfaces';
 
 import { useCoinIconFolderPath } from 'src/provider';
-import { CoinIconCode, CoinIconCodeList, CoinItonType } from '../interfaces';
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
     code: CoinIconCode;
-    type?: CoinItonType;
 }
 
-export const CoinIcon: React.FC<Props> = ({ code, type = 'default', style, ...props }) => {
+export const CoinIcon: React.FC<Props> = ({ code, style, ...props }) => {
     const folderPath = useCoinIconFolderPath();
 
     const exists = useMemo(()=>{
@@ -17,38 +16,26 @@ export const CoinIcon: React.FC<Props> = ({ code, type = 'default', style, ...pr
 
     const imagePath = useMemo(() => {
         const path = (folderPath || '').replace(/\/+$/, '');
-        return `${path}/${type}/${code}.svg`;
+        return `${path}/${code}.svg`;
     }, [folderPath, code]);
 
     const svgAttrs: Partial<HTMLAttributes<HTMLDivElement>> = useMemo(() => {
-
         const style: React.CSSProperties = {
             display: 'inline-block',
             height: '1em',
-            width: '1em'
+            width: '1em',
+            backgroundImage: `url(${imagePath})`,
+            backgroundPosition :'center',
+            backgroundSize : 'contain',
+            backgroundRepeat: 'no-repeat',
         };
         
-        if(type === 'simple'){
-            const mask = `url(${imagePath}) no-repeat center`;            
-            style.backgroundColor = 'var(--coinIconColor)';
-            style.mask = mask;
-            style.WebkitMask= mask;            
-        }
-        else {
-            style.backgroundImage = `url(${imagePath})`;
-            style.backgroundPosition ='center';
-            style.backgroundSize = 'contain';
-            style.backgroundRepeat = 'no-repeat';
-    // background-position: center;
-    // background-size: contain;
-    // background-repeat: no-repeat;
-        }
         
         return {
             style,
             ...props,
         };
-    }, [style, type, imagePath, props]);
+    }, [style, imagePath, props]);
 
     return exists? <div {...svgAttrs} />:null;
 };

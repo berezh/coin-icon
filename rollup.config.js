@@ -42,17 +42,4 @@ export default [
             },
         ],
     },
-    {
-        input: 'src/embed/index.tsx',
-        dest: 'embed.js',
-        plugins: [getTypecriptPlugin('tsconfig.embed.json'), ...plugins],
-        output: [
-            { file: 'embed.js', format: 'cjs' },
-            {
-                file: 'D:/berezh/varp/src/coin-icon/embed.js',
-                format: 'es',
-                banner: '/* eslint-disable */',
-            },
-        ],
-    },
 ];
